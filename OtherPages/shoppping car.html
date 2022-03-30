@@ -1,0 +1,259 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Shopping Car</title>
+	<link href="../CSS/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords"
+		content="Flash Registration Form  Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<!--web-fonts-->
+	<link
+		href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+		rel='stylesheet' type='text/css'>
+</head>
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
+<script src="../js/jquery.min.js"></script>
+<!-- <script>
+	$(document).ready(function (c) {
+		$('.close').on('click', function (c) {
+			$('.product-section').fadeOut('slow', function (c) {
+				$('.product-section').remove();
+			});
+		});
+	});
+</script>
+<script>
+	$(document).ready(function (c) {
+		$('.close1').on('click', function (c) {
+			$('.product1').fadeOut('slow', function (c) {
+				$('.product1').remove();
+			});
+		});
+	});
+</script>
+<script>
+	$(document).ready(function (c) {
+		$('.close2').on('click', function (c) {
+			$('.product2').fadeOut('slow', function (c) {
+				$('.product2').remove();
+			});
+		});
+	});
+</script> -->
+
+<body>
+	<div class="mask">
+		<span>付款成功!</span><span><img src="../photo/hook.png" alt="無"></span>
+		<img class="close" id="close" src="../photo/close.png" alt="none">
+	</div>
+	<nav id="meau">
+		<div class="logowarp">
+			<a href="../index.html"><img src="../photo/logo.png" alt="無"></a>
+		</div>
+		<div class="meauWarp">
+			<ul class="ulwarp">
+				<li><a href="../OtherPages/product.html">主打產品</a></li>
+				<li><a href="../OtherPages/about.html">關於我們</a></li>
+				<li><a href="../OtherPages/new 1.html">常見問題</a></li>
+				<li><a href="#"><img class="photowarp" src="../photo/Search.png" alt="無"></a></li>
+				<li><a href="../OtherPages/shoppping car.html"><img class="photowarp" src="../photo/shopping car.png" alt="無"></a></li>
+			</ul>
+		</div>
+	</nav>
+	<!---header--->
+	<div class="header">
+		<h1>查看您的購物車</h1>
+	</div>
+	<!---header--->
+	<!---main--->
+	<div class="main">
+		<div class="main-section">
+			<!-- 此處動態生成 -->
+		</div>
+		<div class="product-bottom">
+			<h3>總金額 : <span id='money'>NT 0</h3>
+			<button id="submit">點我結帳</button>
+			<div class="clear">
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="foot">
+			<div class="footwarp">
+				<img class="teacher" src="../photo/logo.png" alt="無">
+				<!-- <img class="teacher" src="./photo/Honeydew Melon.png" alt="無"> -->
+			</div>
+			<div class="footwarp">
+				<p>隱私權政策<br>於商業交易法</p>
+			</div>
+			<div class="footlast">
+				<p>©2022 FAT NERD Ltd.</p>
+			</div>
+		</div>
+	</div>
+	<!---main--->
+	<script>
+		const productionList = [{
+				pic: '../photo/fuji apple.jpg',
+				enName: 'FujiApple',
+				name: '富士蘋果',
+				price: 85,
+				des: '從日本進口的香甜蘋果',
+				hot: '熱銷',
+				tot: '共銷售948.7kg',
+			},
+			{
+				pic: '../photo/pineapple.jpg',
+				enName: 'pineapple',
+				name: '台灣鳳梨',
+				price: 44,
+				des: '台灣本土優質鳳梨',
+				hot: '6折',
+				tot: '共銷售300kg',
+			},
+			{
+				pic: '../photo/wax apple.jpg',
+				enName: 'WaxApple',
+				name: '屏東蓮霧',
+				price: 130,
+				des: '屏東在地有機蓮霧',
+				hot: '有機品',
+				tot: '共銷售187kg',
+			},
+			{
+				pic: '../photo/mango.jpg',
+				enName: 'mango',
+				name: '玉井芒果',
+				price: 50,
+				des: '台南有名的芒果',
+				hot: '熱銷',
+				tot: '共銷售696.9kg',
+			},
+			{
+				pic: '../photo/banana.jpg',
+				enName: 'banana',
+				name: '台灣香蕉',
+				price: 60,
+				des: '台灣香蕉最厲害',
+				hot: 'pekopeko',
+				tot: '共銷售145kg',
+			},
+			{
+				pic: '../photo/watermelon.png',
+				enName: 'watermelon',
+				name: '台灣西瓜',
+				price: 35,
+				des: '台灣西瓜最大顆',
+				hot: 'boing boing',
+				tot: '共銷售457kg',
+			},
+			{
+				pic: '../photo/Red Meat Guava.jpg',
+				enName: 'Guava',
+				name: '紅肉芭樂',
+				price: 80,
+				des: '富含大量維生素C',
+				hot: '養生品',
+				tot: '共銷售314kg',
+			},
+			{
+				pic: '../photo/Honey Murcott.png',
+				enName: 'Murcott',
+				name: '茂谷柑',
+				price: 100,
+				des: '台灣本土種植酸甜好吃',
+				hot: '店長推薦',
+				tot: '共銷售212kg',
+			},
+			{
+				pic: '../photo/pear.jpg',
+				enName: 'pear',
+				name: '韓國水梨',
+				price: 200,
+				des: '韓國空運來台保證新鮮',
+				hot: '送禮好選擇',
+				tot: '共銷售103kg',
+			},
+		]
+
+		let totalPriceArr = [0, 0, 0]
+		const submitBtn = document.querySelector('#submit')
+		const closeBtn = document.querySelector('#close')
+
+		submitBtn.addEventListener('click', function (e) {
+			let SumDatareduce = totalPriceArr.reduce((a, b) => a + b);
+			document.getElementById('money').innerText = `NT ${SumDatareduce}`
+			setTimeout(() => {
+				document.querySelector('.mask').classList.add('maskActive')
+			}, 1000);
+		}, false);
+
+		closeBtn.addEventListener('click', function (e) {
+			document.querySelector('.mask').classList.remove('maskActive')
+		}, false);
+
+		function myFunction(list) {
+			const currentItemName = $(list)[0].name
+			const currrentEnName = $(list)[0].id
+			const getProductIndex = productionList.findIndex(currentItem => currentItem.name === currentItemName);
+
+
+			productionList.map((item, index) => {
+				if (index === getProductIndex) {
+					totalPriceArr[getProductIndex] = item.price * parseInt(document.getElementById(currrentEnName)
+						.value)
+				}
+			})
+		}
+
+		window.onload = function () {
+			let blocks = ''
+
+			productionList.map((item) => {
+				blocks += `<div class="product-section">
+						<div class="product-top">
+					<div class="product-left">
+						<img src="${item.pic}">
+					</div>
+					<div class="product-right">
+						<h2 id="production1_">${item.name}</h2>
+						<h5>${item.des}</h5>
+						<ul class="size">
+							<li>${item.hot}</li>
+							<li>${item.tot}</li>
+						</ul>
+					</div>
+				</div>
+				<div class="product-middle">
+					<select class="sel" name="${item.name}" id="${item.enName}" onchange="myFunction(this)">
+						<option value="0">0kg</option>
+						<option value="1">1kg</option>
+						<option value="2">2kg</option>
+						<option value="3">3kg</option>
+						<option value="4">4kg</option>
+						<option value="5">5kg</option>
+					</select>
+				</div>
+				<div class="product-right1">
+					<p>NT ${item.price}<p>
+							<div class="close"> </div>
+				</div>
+				<div class="clear"></div>
+				</div>`
+			})
+			document.querySelector(".main-section").innerHTML = blocks;
+
+		}
+
+	</script>
+</body>
+
+</html>

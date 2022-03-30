@@ -1,0 +1,419 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+#meau {
+    background-color: rgba(247, 247, 247, 0.849);
+    width: 100%;
+    padding: 25px 0;
+    z-index: 100;
+    box-sizing: border-box;
+    /* position:fixed; */
+}
+
+.logowarp a img {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    left: 3%;
+    top: -2%;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.logowarp a img:hover{
+    opacity: 0.7;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.meauWarp {
+    width: 1800px;
+    margin: auto;
+    text-align: right;
+}
+
+.meauWarp li {
+    display: inline;
+}
+
+.ulwarp a {
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.photowarp {
+    height: 22px;
+    width: 22px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.content {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.Introduction {
+    width: 600px;
+    height: 500px;
+    position: relative;
+}
+
+.IntroductionF1 {
+    position: absolute;
+    top: 80%;
+    right: -35%;
+    z-index: 97;
+}
+
+.fontX2 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    display: table;
+}
+
+.fontX3 {
+    font-size: 22px;
+    color: #000;
+    font-weight: 100;
+    display: table;
+}
+
+.IntroductionF2 {
+    width: 100%;
+}
+
+.picture {
+    width: 100%;
+    height: 800px;
+    opacity: 0.7;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.picture:hover{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1.05);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.Product-title {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    padding: 0 10%;
+}
+
+.fontX4 {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    display: table;
+}
+
+.fontX5 {
+    font-size: 20px;
+    color: rgba(107, 107, 107, 0.897);
+    font-weight: bold;
+    display: table;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+}
+
+.prodect {
+    display: flex;
+    padding: 0 10%;
+    margin-top: 100px;
+}
+
+.watame{
+    margin: auto;
+    width: 400px;
+    box-shadow: 0 0 10px rgb(90, 88, 88);
+    border-radius: 20px;
+}
+
+.watame>a{
+    text-decoration: none;
+}
+
+.fruit-1 {
+    width: 400px;
+    height: 400px;
+}
+
+.food{
+    width: 400px;
+    height: 400px;
+    opacity: 0.6;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border-radius: 20px;
+}
+
+.food:hover{
+    opacity:1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+
+.FuJi-apple{
+    font-size: 22px;
+    color: #000;
+    font-weight:bold;
+    display: table;
+    margin-bottom: 10px;
+    padding: 0 25%;
+}
+
+.Honey-Murcott{
+    font-size: 22px;
+    color: #000;
+    font-weight:bold;
+    display: table;
+    margin-bottom: 10px;
+    padding: 0 20%;
+}
+
+.Korean-pear{
+    font-size: 22px;
+    color: #000;
+    font-weight:bold;
+    display: table;
+    margin-bottom: 10px;
+    padding: 0 23%;
+}
+
+.fontAll{
+    font-size: 22px;
+    color: #000;
+    font-weight:bold;
+    display: table;
+    margin-bottom: 10px;
+    padding: 0 15%;
+}
+
+.fontAll2{
+    font-size: 18px;
+    color: rgba(134, 131, 131, 0.897);
+    font-weight: bold;
+    display: table;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+    padding: 15px 32%;
+}
+
+.watchMe{
+    margin-top: 100px;
+    padding: 0 10%;
+}
+
+.More{
+    width: 38%;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    
+}
+
+.More:hover{
+    background-color: black;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.watchMe a{
+    text-decoration: none;
+}
+
+.watchMe a p{
+    font-size: 20px;
+    color: black;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+    padding: 15px 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.watchMe a p:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    color: white;
+}
+
+.news-title {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    padding: 0 10%;
+}
+
+.fontX6{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    display: table;
+}
+
+.fontX7{
+    font-size: 15px;
+    color: rgb(148, 148, 148);
+    font-weight: bold;
+    display: table;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+}
+
+.news-list{
+    padding: 0 10%;
+}
+
+.news-list ul a{
+    text-decoration: none;
+}
+
+.listall{
+    width: 100%;
+    margin-bottom: 30px;
+    min-height: auto;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.listall:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 0.6;
+}
+
+.youtuber{
+    display: flex;
+    align-items: center;
+}
+
+.Vtuber{
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-right: 1px solid #DDDDDD;
+    padding-right: 20px;
+}
+
+.Vtuber>p{
+    font-size: 13px;
+    color: rgb(107, 105, 105);
+    font-weight: bold;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+}
+
+.trash{
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.trash>p{
+    font-size: 18px;
+    color: rgb(107, 105, 105);
+    font-weight: bold;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+}
+.foot {
+    margin-top: 200px;
+    width: 100%;
+    background-color:rgba(247, 247, 247, 0.849);
+    display: flex;
+}
+
+.footwarp{
+    width: 150px;
+    height: 110px;
+    margin: auto;
+}
+
+
+.footwarp>p{
+    font-size: 18px;
+    color: rgb(107, 105, 105);
+    font-weight: bold;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+    text-align: center;
+    line-height: 3em;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.footwarp>p:hover{
+    opacity: 0.7;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.teacher{
+    height: 110px;
+    width: 110px;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.teacher:hover{
+    opacity: 0.7;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.footlast{
+    width: 150px;
+    height: 110px;
+    margin: auto;
+}
+
+.footlast>p{
+    font-size: 13px;
+    color: rgb(107, 105, 105);
+    font-weight: bold;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+    text-align: center;
+    padding: 35% 0;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.footlast>p:hover{
+    opacity: 0.7;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
