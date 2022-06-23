@@ -267,7 +267,11 @@
     transition: .3s ease-in-out;
     color: white;
 }
-
+.vedio-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem
+}
 .news-title {
     margin-bottom: 50px;
     margin-top: 100px;
